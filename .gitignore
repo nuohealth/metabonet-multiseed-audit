@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Data (large, download separately)
+data/metabonet_v2/*
+data/shanghait2dm/*
+!data/metabonet_v2/.gitkeep
+!data/shanghait2dm/.gitkeep
+
+# Results (regenerated)
+results/
+checkpoints/
+*.log
+
+# OS
+.DS_Store
